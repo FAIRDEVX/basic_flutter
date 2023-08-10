@@ -17,9 +17,9 @@ class MyWidget extends StatelessWidget {
           title: Text("Basic Flutter Demo"),
         ),
         body: Center(
-          child: Text(
-            "สวัสดีครับทุกท่าน",
-            style: TextStyle(fontSize: 30, color: Colors.pink),
+          child: Image(
+            image: NetworkImage(
+                "https://wotpack.ru/wp-content/uploads/2023/05/1-18.jpg"),
           ),
         ),
       ),
