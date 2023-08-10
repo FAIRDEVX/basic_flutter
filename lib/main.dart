@@ -17,9 +17,13 @@ class MyWidget extends StatelessWidget {
           title: Text("Basic Flutter Demo"),
         ),
         body: Center(
-          child: Image(
-            image: NetworkImage(
-                "https://wotpack.ru/wp-content/uploads/2023/05/1-18.jpg"),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Text("สวัสดีครับทุกท่าน"),
+              Text("Hello Dart"),
+              Text("Hello Flutter"),
+            ],
           ),
         ),
       ),
