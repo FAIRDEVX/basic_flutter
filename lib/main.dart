@@ -14,9 +14,14 @@ class MyWidget extends StatelessWidget {
       title: "My App",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Hello Flutter"),
+          title: Text("Basic Flutter Demo"),
         ),
-        body: Text("สวัสดีครับทุกท่าน"),
+        body: Center(
+          child: Text(
+            "สวัสดีครับทุกท่าน",
+            style: TextStyle(fontSize: 30, color: Colors.pink),
+          ),
+        ),
       ),
       theme: ThemeData(primarySwatch: Colors.pink),
     );
